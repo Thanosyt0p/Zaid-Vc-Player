@@ -16,7 +16,7 @@ SESSION_NAME = getenv("BQBCE9_aDNBOND7LnSuLpVxQ_5CT_VM1_WtUKHgnkMhxCXBQIGSad-3k3
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
 else:
-    SESSION2 = str(getenv("BQBCE9_aDNBOND7LnSuLpVxQ_5CT_VM1_WtUKHgnkMhxCXBQIGSad-3k3nI5EnIJ94k8Eg1N-9GR9iP34Mkfz8MJQXcGJ-FsfBjdpcHXK0uxMChockwbmuUS-RhCC7etivT2q0c1Ta2egTMRCSMW5KE0mVg3oiI96don-ZzdtAxnDRNFuCKUPjlDQCZWqiZhOjnDByQxbfj1EorfnkXKlxOLxRFp5GDT1C76CsiGUu5d8GVmI7RjUyHcIMeNYq4Gv2aXTq0yhPoHv5IsD-FnEFPKoycRI9LnlHiIcHzSibRGyLdQuWbeAwbKTgFldS4gkz9fBIjIXKrhJr-gxqCGtNgoAAAAAY-q97QA"))
+    SESSION2 = str(getenv("STRING_SESSION2"))
 
 if str(getenv("STRING_SESSION3")).strip() == "":
     SESSION3 = str(None)
@@ -34,7 +34,7 @@ else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6333624410:AAE80MnoUMn56KkpzpY1uF5t2VQrgrzbfbY")
-BOT_NAME = getenv("BOT_NAME", "Tʀᴏʟʟ ᴍᴜsɪᴄ")
+BOT_NAME = getenv("BOT_NAME", "troll")
 
 API_ID = int(getenv("API_ID", "8186557"))
 API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
@@ -44,7 +44,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "Ironmanhindigaming")
 ALIVE_NAME = getenv("ALIVE_NAME", "Ironman")
 BOT_USERNAME = getenv("BOT_USERNAME", "rajaof_bot")
 OWNER_ID = getenv("OWNER_ID", "7086360370")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "IROTECH")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Systemgang454")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "IROTECH")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "irotechbotz0")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
